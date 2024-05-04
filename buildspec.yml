@@ -12,7 +12,7 @@ phases:
   post_build:
     commands:
       - echo "Entered the post-build phase"
-      - mv C:\Users\User\Documents\SynergisticIt\AWS\FinalProject\aws-elastic-beanstalk\target\deploy ./
+      - mv target/deploy ./
 artifacts:
   files:
     - deploy/**/*
