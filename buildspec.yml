@@ -12,7 +12,7 @@ phases:
   post_build:
     commands:
       - echo "Entered the post-build phase"
-      - mv target/deploy ./
+      - mv target/aws-elastic-beanstalk-0.0.1-SNAPSHOT.war ROOT.war
 artifacts:
   files:
     - deploy/**/*
