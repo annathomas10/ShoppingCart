@@ -15,4 +15,4 @@ phases:
       - mv target/aws-elastic-beanstalk-0.0.1-SNAPSHOT.war ./
 artifacts:
   files:
-    - deploy aws-elastic-beanstalk-0.0.1-SNAPSHOT.war
+    - aws-elastic-beanstalk-0.0.1-SNAPSHOT.war
