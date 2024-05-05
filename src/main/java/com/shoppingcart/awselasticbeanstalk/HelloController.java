@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
     public String Hello(){
-        return "Hello youtube";
+        return "Hello moi";
     }
 }
